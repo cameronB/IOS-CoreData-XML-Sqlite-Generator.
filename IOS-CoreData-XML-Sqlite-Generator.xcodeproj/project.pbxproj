@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E8698C41604CE2F00CE5231 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8698C31604CE2F00CE5231 /* CoreData.framework */; };
+		9E8698C61604CE2F00CE5231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8698C51604CE2F00CE5231 /* Foundation.framework */; };
+		9E8698D01604CE3000CE5231 /* IOS_CoreData_XML_Sqlite_Generator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E8698CF1604CE3000CE5231 /* IOS_CoreData_XML_Sqlite_Generator.1 */; };
+		9E8698DC1604CEBE00CE5231 /* NewsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8698D91604CEBE00CE5231 /* NewsDelegate.m */; };
+		9E8698DD1604CEBE00CE5231 /* NewsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8698DB1604CEBE00CE5231 /* NewsStore.m */; };
+		9E8698E01604CF2B00CE5231 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E8698DE1604CF2B00CE5231 /* Model.xcdatamodeld */; };
+		9E8698E61604CFD100CE5231 /* NewsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8698E51604CFD100CE5231 /* NewsDetails.m */; };
+		9E8698E91604CFE400CE5231 /* NewsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8698E81604CFE400CE5231 /* NewsInfo.m */; };
+		9E8698EB1604D02D00CE5231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8698EA1604D02D00CE5231 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E8698BD1604CE2F00CE5231 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9E8698D01604CE3000CE5231 /* IOS_CoreData_XML_Sqlite_Generator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E8698BF1604CE2F00CE5231 /* IOS-CoreData-XML-Sqlite-Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "IOS-CoreData-XML-Sqlite-Generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8698C31604CE2F00CE5231 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E8698C51604CE2F00CE5231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E8698CB1604CE3000CE5231 /* IOS-CoreData-XML-Sqlite-Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOS-CoreData-XML-Sqlite-Generator-Prefix.pch"; sourceTree = "<group>"; };
+		9E8698CF1604CE3000CE5231 /* IOS_CoreData_XML_Sqlite_Generator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IOS_CoreData_XML_Sqlite_Generator.1; sourceTree = "<group>"; };
+		9E8698D81604CEBE00CE5231 /* NewsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDelegate.h; sourceTree = "<group>"; };
+		9E8698D91604CEBE00CE5231 /* NewsDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDelegate.m; sourceTree = "<group>"; };
+		9E8698DA1604CEBE00CE5231 /* NewsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsStore.h; sourceTree = "<group>"; };
+		9E8698DB1604CEBE00CE5231 /* NewsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsStore.m; sourceTree = "<group>"; };
+		9E8698DF1604CF2B00CE5231 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9E8698E41604CFD100CE5231 /* NewsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetails.h; sourceTree = "<group>"; };
+		9E8698E51604CFD100CE5231 /* NewsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetails.m; sourceTree = "<group>"; };
+		9E8698E71604CFE400CE5231 /* NewsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsInfo.h; sourceTree = "<group>"; };
+		9E8698E81604CFE400CE5231 /* NewsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsInfo.m; sourceTree = "<group>"; };
+		9E8698EA1604D02D00CE5231 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E8698F01604D1D800CE5231 /* Legacy_Iron_Ore.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Legacy_Iron_Ore.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8698BC1604CE2F00CE5231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8698C41604CE2F00CE5231 /* CoreData.framework in Frameworks */,
+				9E8698C61604CE2F00CE5231 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E8698B41604CE2F00CE5231 = {
+			isa = PBXGroup;
+			children = (
+				9E8698C71604CE3000CE5231 /* IOS-CoreData-XML-Sqlite-Generator */,
+				9E8698C21604CE2F00CE5231 /* Frameworks */,
+				9E8698C01604CE2F00CE5231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8698C01604CE2F00CE5231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8698BF1604CE2F00CE5231 /* IOS-CoreData-XML-Sqlite-Generator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8698C21604CE2F00CE5231 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E8698C31604CE2F00CE5231 /* CoreData.framework */,
+				9E8698C51604CE2F00CE5231 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E8698C71604CE3000CE5231 /* IOS-CoreData-XML-Sqlite-Generator */ = {
+			isa = PBXGroup;
+			children = (
+				9E8698D71604CE4900CE5231 /* NSXMLParser */,
+				9E8698D61604CE4100CE5231 /* Database */,
+				9E8698E71604CFE400CE5231 /* NewsInfo.h */,
+				9E8698E81604CFE400CE5231 /* NewsInfo.m */,
+				9E8698E41604CFD100CE5231 /* NewsDetails.h */,
+				9E8698E51604CFD100CE5231 /* NewsDetails.m */,
+				9E8698EA1604D02D00CE5231 /* main.m */,
+				9E8698DE1604CF2B00CE5231 /* Model.xcdatamodeld */,
+				9E8698CF1604CE3000CE5231 /* IOS_CoreData_XML_Sqlite_Generator.1 */,
+				9E8698CA1604CE3000CE5231 /* Supporting Files */,
+			);
+			path = "IOS-CoreData-XML-Sqlite-Generator";
+			sourceTree = "<group>";
+		};
+		9E8698CA1604CE3000CE5231 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E8698CB1604CE3000CE5231 /* IOS-CoreData-XML-Sqlite-Generator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E8698D61604CE4100CE5231 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				9E8698F01604D1D800CE5231 /* Legacy_Iron_Ore.sqlite */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		9E8698D71604CE4900CE5231 /* NSXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				9E8698D81604CEBE00CE5231 /* NewsDelegate.h */,
+				9E8698D91604CEBE00CE5231 /* NewsDelegate.m */,
+				9E8698DA1604CEBE00CE5231 /* NewsStore.h */,
+				9E8698DB1604CEBE00CE5231 /* NewsStore.m */,
+			);
+			name = NSXMLParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8698BE1604CE2F00CE5231 /* IOS-CoreData-XML-Sqlite-Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8698D31604CE3000CE5231 /* Build configuration list for PBXNativeTarget "IOS-CoreData-XML-Sqlite-Generator" */;
+			buildPhases = (
+				9E8698BB1604CE2F00CE5231 /* Sources */,
+				9E8698BC1604CE2F00CE5231 /* Frameworks */,
+				9E8698BD1604CE2F00CE5231 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-CoreData-XML-Sqlite-Generator";
+			productName = "IOS-CoreData-XML-Sqlite-Generator";
+			productReference = 9E8698BF1604CE2F00CE5231 /* IOS-CoreData-XML-Sqlite-Generator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E8698B61604CE2F00CE5231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Cameron Bradley";
+			};
+			buildConfigurationList = 9E8698B91604CE2F00CE5231 /* Build configuration list for PBXProject "IOS-CoreData-XML-Sqlite-Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E8698B41604CE2F00CE5231;
+			productRefGroup = 9E8698C01604CE2F00CE5231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8698BE1604CE2F00CE5231 /* IOS-CoreData-XML-Sqlite-Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8698BB1604CE2F00CE5231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8698DC1604CEBE00CE5231 /* NewsDelegate.m in Sources */,
+				9E8698DD1604CEBE00CE5231 /* NewsStore.m in Sources */,
+				9E8698E01604CF2B00CE5231 /* Model.xcdatamodeld in Sources */,
+				9E8698E61604CFD100CE5231 /* NewsDetails.m in Sources */,
+				9E8698E91604CFE400CE5231 /* NewsInfo.m in Sources */,
+				9E8698EB1604D02D00CE5231 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E8698D11604CE3000CE5231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E8698D21604CE3000CE5231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E8698D41604CE3000CE5231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOS-CoreData-XML-Sqlite-Generator/IOS-CoreData-XML-Sqlite-Generator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E8698D51604CE3000CE5231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOS-CoreData-XML-Sqlite-Generator/IOS-CoreData-XML-Sqlite-Generator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8698B91604CE2F00CE5231 /* Build configuration list for PBXProject "IOS-CoreData-XML-Sqlite-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8698D11604CE3000CE5231 /* Debug */,
+				9E8698D21604CE3000CE5231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8698D31604CE3000CE5231 /* Build configuration list for PBXNativeTarget "IOS-CoreData-XML-Sqlite-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8698D41604CE3000CE5231 /* Debug */,
+				9E8698D51604CE3000CE5231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E8698DE1604CF2B00CE5231 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E8698DF1604CF2B00CE5231 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9E8698DF1604CF2B00CE5231 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E8698B61604CE2F00CE5231 /* Project object */;
+}

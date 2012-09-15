@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="11E53" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="NewsDetails" representedClassName="NewsDetails" syncable="YES">
+        <attribute name="newsDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsLink" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="info" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="NewsInfo" inverseName="details" inverseEntity="NewsInfo" syncable="YES"/>
+    </entity>
+    <entity name="NewsInfo" representedClassName="NewsInfo" syncable="YES">
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="details" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="NewsDetails" inverseName="info" inverseEntity="NewsDetails" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NewsDetails" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="NewsInfo" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
